@@ -5,10 +5,10 @@ from sqlalchemy import func
 import pandas as pd
 import io
 
-from database import engine, get_db
-import ml_model
 import models
 import schemas
+import ml_model
+from database import engine, get_db
 
 # Create DB tables
 models.Base.metadata.create_all(bind=engine)
@@ -153,10 +153,10 @@ def get_dashboard_stats(db: Session = Depends(get_db)):
     avg_score = float(avg_score_raw) if avg_score_raw is not None else 0.0
     
     return {
-        "total_users_analyzed": total_users,
-        "high_risk_users": high_risk_users,
-        "suspicious_returns": suspicious_returns,
-        "average_risk_score": float(round(avg_score, 1))
+        "total_users_analyzed": int(total_users),
+        "high_risk_users": int(high_risk_users),
+        "suspicious_returns": int(suspicious_returns),
+        "average_risk_score": float(round(float(avg_score), 1))
     }
 
 @app.get("/users/suspicious", response_model=list[schemas.UserOut])

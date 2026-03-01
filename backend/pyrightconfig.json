@@ -1,9 +1,0 @@
-{
-    "venvPath": "/Users/shikharverma/Documents/hackathon1.1/returnshield/backend",
-    "venv": "venv",
-    "executionEnvironments": [
-        {
-            "root": "."
-        }
-    ]
-}
