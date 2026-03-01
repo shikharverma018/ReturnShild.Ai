@@ -185,7 +185,15 @@ Checkpoint 6: Deployment
 Dockerized application
 Cloud deployment
 Live demo
-11. End-to-End Workflow
+
+## 11. Demo
+
+Live Demo: 
+Video Demo: 
+GitHub Repo: 
+--------------------------------------------------
+
+12. End-to-End Workflow
 Upload transaction logs
 Feature engineering
 Anomaly detection
@@ -193,23 +201,23 @@ Risk scoring
 Explainability generation
 Dashboard visualization
 Fraud analyst review
-12. Demo & Video
+13. Demo & Video
 Live Demo Link: To be added
 Demo Video Link: To be added
 GitHub Repository: To be added
 
-13. Hackathon Deliverables Summary
+14. Hackathon Deliverables Summary
 Functional fraud detection dashboard
 Explainable AI risk scoring system
 Anomaly detection engine
 API documentation
 Deployment-ready system
-14. Team Roles & Responsibilities
+15. Team Roles & Responsibilities
 Member Name	Role	Responsibilities
 Shikhar Verma	Frontend & Backend Developer	Full-stack development, API integration, backend logic implementation
 Vishwajit Jayswal	UI/UX Developer	Dashboard design, user experience optimization, interface prototyping
 Devesh Kumar Gupta	Researcher	Fraud pattern research, feature engineering strategy, model analysis
-15. Future Scope & Scalability
+16. Future Scope & Scalability
 Short-Term
 Real-time fraud detection
 Advanced dashboard filters
@@ -219,12 +227,12 @@ Graph-based fraud detection
 Deep learning anomaly models
 Adaptive learning systems
 Cross-platform fraud intelligence
-16. Known Limitations
+17. Known Limitations
 Synthetic dataset limitations
 Cold-start user problem
 Possible false positives
 Requires periodic retraining
-17. Impact
+18. Impact
 Reduced financial losses
 Improved fraud detection accuracy
 Lower false positives
